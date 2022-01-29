@@ -5,32 +5,32 @@ R package for calculating European style down-and-out call option with a barrier
 
   ### Import Package from Github
   
-    ```{ruby}
-        library(devtools)
-        install_github("AlparslanErol/EuropeanOptionPricer")
-        library(EuropeanOptionPricer)
-    ```
+```{r}
+library(devtools)
+install_github("AlparslanErol/EuropeanOptionPricer")
+library(EuropeanOptionPricer)
+```
 
   ### Import Package from binaries (no need to rebuild)
   After you build binary folder of this package with name ``EuropeanOptionPricer_1.0.zip``, 
   you can run the code chunk below to import EuropeanOptionPricer package from
   binary folder.
   
-    ```{ruby}
-      install.packages("./EuropeanOptionPricer_1.0.zip",
-                       type = "binaries",
-                       repos = NULL,
-                       dependenciew=TRUE)
-      library(EuropeanOptionPricer)
-    ```  
+```{r}
+install.packages("./EuropeanOptionPricer_1.0.zip",
+                 type = "binaries",
+                 repos = NULL,
+                 dependenciew=TRUE)
+library(EuropeanOptionPricer)
+```  
     
 ## Call the function from the package
 To call the ``europeanCallPriceWithBarrier`` method from ``EuropenOption`` class,
 just run the code chunk below, feel free to change argument of method.
   
-    ```{ruby}
-      EuropeanOptionPricer::europeanCallPriceWithBarrier(126, 100, 105, 99, 0.22, 0.05, 0.5, 10000)
-    ``` 
+```{r}
+EuropeanOptionPricer::europeanCallPriceWithBarrier(126, 100, 105, 99, 0.22, 0.05, 0.5, 10000)
+``` 
     
 Here is the arguments of ``europeanCallPriceWithBarrier`` method from ``EuropenOption`` class in order:
 
