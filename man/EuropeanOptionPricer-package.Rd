@@ -11,6 +11,7 @@
 }
 \details{
   ## Import Package from Github
+  
     library(devtools)
     
     install_github("AlparslanErol/EuropeanOptionPricer")
@@ -18,14 +19,19 @@
     library(EuropeanOptionPricer)
 
   ## Import Package from binaries (no need to rebuild)
+  
     install.packages("progs/EuropeanOptionPricer_1.0.zip",
+                     
                      type = "binaries",
+                     
                      repos = NULL,
+                     
                      dependenciew=TRUE)
                      
     library(EuropeanOptionPricer)
     
   ## Call the function from the package
+  
     EuropeanOptionPricer::europeanCallPriceWithBarrier(126, 100, 105, 99, 0.22, 0.05, 0.5, 10000)
 }
 \author{
