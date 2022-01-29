@@ -1,7 +1,7 @@
 Package: EuropeanOptionPricer
 Type: Package
 Title: European style down-and-out call option price calculation.
-Version: 1.0
+Version: 1.0.0
 Date: 2022-01-29
 Author: Alparslan Erol
 Maintainer: Alparslan Erol <alparslann.erol@gmail.com>
