@@ -1,0 +1,12 @@
+Package: EuropeanOptionPricer
+Type: Package
+Title: European style down-and-out call option price calculation.
+Version: 1.0
+Date: 2022-01-29
+Author: Alparslan Erol
+Maintainer: Alparslan Erol <alparslann.erol@gmail.com>
+Description:   R package for calculating European style down-and-out call option with a 
+  barrier active between the moment of pricing and the option expiry.
+License: GPL (>= 2)
+Imports: Rcpp (>= 1.0.7)
+LinkingTo: Rcpp
