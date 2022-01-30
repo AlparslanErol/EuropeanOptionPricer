@@ -245,7 +245,7 @@ This plot illustrates couple of insights as follows:
 - Regardless the value of spot price, higher barrier values directly decrease the option price, because the gap between
 ``barrier level`` and ``strike price`` is getting closer.
 
-### 4: Option Price vs Expiry coloured with Volatality
+### 5: Option Price vs Expiry coloured with Volatality
 In this part, you are going to observe relation between the ``theoretical price of the option`` and two factors (simultaneously):
 1. time to maturity of the option (x-axis on the plot)
 2. volatility of the underlying instrument returns (color input on the plot)
